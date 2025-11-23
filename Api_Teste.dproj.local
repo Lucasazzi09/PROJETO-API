@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/08/06 00:45:37.000.586,=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/08/06 01:03:48.000.067,=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/08/06 01:29:44.000.284,=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/08/06 01:42:20.000.927,=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/08/06 01:48:06.000.153,=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/08/06 01:51:47.000.781,=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/08/06 01:59:19.000.480,=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/10/06 20:09:06.000.166,=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/10/06 23:10:33.000.891,C:\Delphi_Projetos\API_REST_HORSE\Api_Teste.dproj=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2025/10/10 16:54:32.000.615,=C:\Delphi_Projetos\API_REST_HORSE\Unit1.pas</Transaction>
+    <Transaction>2025/10/11 15:00:04.000.544,=C:\Delphi_Projetos\API_REST_HORSE\Unit1.pas</Transaction>
+    <Transaction>2025/10/11 15:00:32.000.210,C:\Delphi_Projetos\API_REST_HORSE\src\ULogConfig.pas=C:\Delphi_Projetos\API_REST_HORSE\Unit1.pas</Transaction>
+    <Transaction>2025/10/11 15:00:55.000.226,=C:\Delphi_Projetos\API_REST_HORSE\Unit1.pas</Transaction>
+    <Transaction>2025/10/11 15:01:13.000.505,C:\Delphi_Projetos\API_REST_HORSE\src\UAuthConfig.pas=C:\Delphi_Projetos\API_REST_HORSE\Unit1.pas</Transaction>
+    <Transaction>2025/10/11 15:50:02.000.663,=C:\Delphi_Projetos\API_REST_HORSE\Unit1.pas</Transaction>
+    <Transaction>2025/10/11 15:50:38.000.321,C:\Delphi_Projetos\API_REST_HORSE\src\Services\DM.Service.Cidades.dfm=C:\Delphi_Projetos\API_REST_HORSE\Unit1.dfm</Transaction>
+    <Transaction>2025/10/11 15:50:38.000.321,C:\Delphi_Projetos\API_REST_HORSE\src\Services\DM.Service.Cidades.pas=C:\Delphi_Projetos\API_REST_HORSE\Unit1.pas</Transaction>
+    <Transaction>2025/10/31 00:27:18.000.082,C:\Delphi_Projetos\API_REST_HORSE\src\Services\DM.Service.Cidades.pas=C:\Delphi_Projetos\API_REST_HORSE\src\Services\DM.Service.Produtos.pas</Transaction>
+    <Transaction>2025/10/31 00:27:18.000.082,C:\Delphi_Projetos\API_REST_HORSE\src\Services\DM.Service.Cidades.dfm=C:\Delphi_Projetos\API_REST_HORSE\src\Services\DM.Service.Produtos.dfm</Transaction>
+    <Transaction>2025/10/31 00:28:09.000.545,=C:\Delphi_Projetos\API_REST_HORSE\Unit1.pas</Transaction>
+    <Transaction>2025/10/31 00:28:24.000.678,C:\Delphi_Projetos\API_REST_HORSE\Unit1.pas=C:\Delphi_Projetos\API_REST_HORSE\src\Services\DM.Service.Banco.pas</Transaction>
+    <Transaction>2025/10/31 00:28:24.000.679,C:\Delphi_Projetos\API_REST_HORSE\Unit1.dfm=C:\Delphi_Projetos\API_REST_HORSE\src\Services\DM.Service.Banco.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
