@@ -93,16 +93,8 @@ begin
       if E.Kind = ekUKViolated then
         Res.Status(409).Send(TJSONObject.Create.AddPair('status', 'error')
           .AddPair('message',
-          'Produto já cadastrado (codigo_interno duplicado)'))
-      else
-        raise;
+            'Produto já cadastrado (codigo_interno duplicado)'))
     end;
-
-    on E: Exception do
-      Res.Status(500).Send(TJSONObject.Create.AddPair('status', 'error')
-        .AddPair('message', 'Erro interno: ' + E.Message));
-  finally
-
   end;
 end;
 

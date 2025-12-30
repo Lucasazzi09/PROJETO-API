@@ -144,7 +144,6 @@ var
 begin
   Result := nil;
 
-  try
     // Extrai dados do JSON
     if JSON.TryGetValue<Integer>('codigo_interno', LCodigoInterno) and
       JSON.TryGetValue<string>('descricao', LDescricao) and
@@ -173,29 +172,19 @@ begin
 
         LQuery.ExecSQL;
 
-        // Retorna resultado de sucesso
+      finally
+        LQuery.Free;
+      end;
+
+       // Retorna resultado de sucesso
         Result := TJSONObject.Create;
         Result.AddPair('status', 'success');
         Result.AddPair('message', 'Produto criado com sucesso');
         Result.AddPair('codigo_interno', TJSONNumber.Create(LCodigoInterno));
-
-      finally
-        LQuery.Free;
-      end;
     end
     else
     begin
       raise Exception.Create('JSON inválido ou campos faltando');
     end;
-
-  except
-    on E: Exception do
-    begin
-      Result := TJSONObject.Create;
-      Result.AddPair('status', 'error');
-      Result.AddPair('message', E.Message);
-    end;
-  end;
 end;
-
 end.
