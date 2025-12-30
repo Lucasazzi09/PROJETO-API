@@ -1,0 +1,21 @@
+{
+	"name": "boss install",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"github.com/bittencourtthulio/horse-paginate": "^1.0.5",
+		"github.com/hashload/handle-exception": "^0.1.9",
+		"github.com/hashload/horse": "^3.1.9",
+		"github.com/hashload/horse-basic-auth": "^1.2.4",
+		"github.com/hashload/horse-compression": "^1.1.12",
+		"github.com/hashload/horse-logger": "^2.0.8",
+		"github.com/hashload/horse-logger-provider-console": "^1.0.9",
+		"github.com/hashload/horse-logger-provider-logfile": "^1.0.12",
+		"github.com/hashload/jhonson": "^1.1.9",
+		"https://github.com/carloshe/pool-manager": "^1.1.0",
+		"https://github.com/viniciussanchez/dataset-serialize": "^v2.5.9"
+	}
+}
