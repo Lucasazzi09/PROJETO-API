@@ -1,4 +1,4 @@
-unit DM.Service.Produto;
+ï»¿unit DM.Service.Produto;
 
 interface
 
@@ -19,7 +19,9 @@ uses
   FireDAC.Stan.Async,
   FireDAC.DApt,
   Datasnap.DBClient,
-  Datasnap.Provider;
+  Datasnap.Provider,
+  DataSet.Serialize,
+  DataSet.Serialize.Config;
 
 type
   TDMServiceProduto = class(TDataModule)
@@ -41,13 +43,13 @@ implementation
 uses
   DM.Service.Banco;
 
-/// / ********* ROTA GET ******** ////
+//// ********* ROTA GET ******** ////
 class function TDMServiceProduto.GetProdutos: TJSONArray;
 var
   LQuery: TFDQuery;
-  LItem: TJSONObject;
+//  LItem: TJSONObject;
 begin
-  Result := TJSONArray.Create;
+ // Result := TJSONArray.Create;
   LQuery := TFDQuery.Create(nil);
 
   try
@@ -58,7 +60,9 @@ begin
 
       LQuery.Open;
 
-      while not LQuery.Eof do
+      Result := LQuery.ToJSONArray;
+
+    {  while not LQuery.Eof do
       begin
         LItem := TJSONObject.Create;
 
@@ -75,7 +79,7 @@ begin
 
         Result.AddElement(LItem);
         LQuery.Next;
-      end;
+      end;  }
     except
       on E: Exception do
         raise Exception.Create('Erro ao buscar produto: ' + E.Message);
@@ -84,6 +88,7 @@ begin
     LQuery.Free;
   end;
 end;
+
 
 class function TDMServiceProduto.GetProdutoPorCodigo(Codigo: Integer)
   : TJSONObject;
@@ -132,7 +137,7 @@ begin
   end;
 end;
 
-/// / ******** ROTA POST ******** ////
+//// ******** ROTA POST ******** ////
 class function TDMServiceProduto.CriarProduto(JSON: TJSONObject): TJSONObject;
 var
   LQuery: TFDQuery;
@@ -154,7 +159,7 @@ begin
 
       //Exceptions antes de criar o produto:
       if LPrecoVenda <= 0 then
-        raise Exception.Create('Preço de venda deve ser maior que zero.');
+        raise Exception.Create('Preï¿½o de venda deve ser maior que zero.');
 
 
       LQuery := TFDQuery.Create(nil);
@@ -184,7 +189,7 @@ begin
     end
     else
     begin
-      raise Exception.Create('JSON inválido ou campos faltando');
+      raise Exception.Create('JSON invï¿½lido ou campos faltando');
     end;
 end;
 end.

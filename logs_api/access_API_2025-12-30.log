@@ -1,3 +1,21 @@
 [30/dezembro/2025 00:02:24.888] 409 - POST /v1/produto/
 [30/dezembro/2025 00:02:42.970] 409 - POST /v1/produto/
 [30/dezembro/2025 00:02:45.141] 409 - POST /v1/produto/
+[30/dezembro/2025 22:59:47.384] 200 - GET /v1/produto
+[30/dezembro/2025 23:07:22.472] 404 - GET /v1/produto/codigo/7
+[30/dezembro/2025 23:07:26.489] 200 - GET /v1/produto/codigo/1
+[30/dezembro/2025 23:07:28.944] 200 - GET /v1/produto
+[30/dezembro/2025 23:07:39.876] 200 - GET /v1/produto/codigo/50
+[${time}] 200 - GET /v1/produto/codigo/50
+[${time}] 200 - GET /v1/produto/codigo/50
+[${time}] 200 - GET /v1/produto/codigo/50
+[${time}] 200 - GET /v1/produto/codigo/50
+[30/dezembro/2025 23:15:22.982] 500 - GET /v1/produto/codigo/50
+[30/dezembro/2025 23:17:11.372] 500 - GET /v1/produto/codigo/50
+[${time}] 200 - GET /v1/produto/codigo/50
+[30/dezembro/2025 23:25:45.602] 200 - GET /v1/produto
+[30/dezembro/2025 23:26:10.755] 200 - GET /v1/produto/codigo/1
+[30/dezembro/2025 23:26:14.971] 200 - GET /v1/produto/codigo/50
+[${time}] 200 - GET /v1/produto/codigo/50
+[30/dezembro/2025 23:29:51.379] 500 - GET /v1/produto/codigo/50
+[${time}] 200 - GET /v1/produto/codigo/50

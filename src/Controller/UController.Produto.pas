@@ -25,7 +25,6 @@ var
   Resultado: TJSONObject;
 begin
   Resultado := nil;
-  try
 
     if not TryStrToInt(Req.Params.Items['CODIGO'], Codigo) then
     begin
@@ -41,9 +40,6 @@ begin
     else
       Res.Status(404).Send(TJSONObject.Create.AddPair('error',
         'Produto não encontrado'));
-  finally
-    Resultado.Free;
-  end;
 end;
 
 procedure GetProduto(Req: THorseRequest; Res: THorseResponse; Next: TProc);

@@ -1,0 +1,19 @@
+[02/janeiro/2026 20:28:36.126] 404 - GET /v1/produto/codigo/2
+[${time}] 200 - GET /v1/produto/codigo/2
+[${time}] 200 - GET /v1/produto/codigo/1
+[${time}] 200 - GET /v1/produto/codigo/1
+[02/janeiro/2026 20:55:15.618] 404 - GET /v1/produto/codigo/6
+[02/janeiro/2026 20:55:21.351] 200 - GET /v1/produto/codigo/1
+[02/janeiro/2026 20:55:54.794] 200 - GET /v1/produto
+[02/janeiro/2026 20:55:59.939] 200 - GET /v1/produto/codigo/1
+[${time}] 200 - GET /v1/produto/codigo/50
+[${time}] 200 - GET /v1/produto/codigo/50
+[${time}] 200 - GET /v1/produto/codigo/50
+[${time}] 200 - GET /v1/produto/codigo/50
+[02/janeiro/2026 22:32:59.953] 200 - GET /v1/produto
+[${time}] 200 - GET /v1/produto/codigo/50
+[${time}] 200 - GET /v1/produto/codigo/50
+[${time}] 200 - GET /v1/produto/codigo/50
+[02/janeiro/2026 23:02:36.502] 200 - GET /v1/produto/codigo/10
+[02/janeiro/2026 23:03:00.281] 200 - GET /v1/produto
+[02/janeiro/2026 23:03:06.749] 200 - GET /v1/produto/codigo/10
